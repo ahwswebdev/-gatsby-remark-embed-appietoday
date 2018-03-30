@@ -28,12 +28,7 @@ module.exports = ({ markdownAST }, options = { width: 560, ratio: 1.7, related: 
   };
 
   const videoTypes = {
-    'youtube': (id) => createIframe(`https://www.youtube.com/embed/${id}`, 'youtube'),
-    'vimeo': (id) => createIframe(`https://player.vimeo.com/video/${id}`, 'vimeo'),
-    'videopress': (id) => {
-      return createIframe(`https://videopress.com/embed/${id}`, 'videopress') + `<script src="https://videopress.com/videopress-iframe.js"></script>`;
-    },
-    'video': (id) => `<p style="color: red">Error: Video Id could not be read.</p>`
+    'appietoday': (id) => createIframe(`https://www.appietoday.nl/embed/bekijk/${id}`, 'youtube'),
   }
 
   visit(markdownAST, `inlineCode`, node => {

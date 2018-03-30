@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-remark-embed-video",
-  "version": "1.0.4",
-  "description": "Embed Videos (Youtube, Vimeo, VideoPress) in Gatsby via Markdown",
+  "name": "gatsby-remark-embed-appietoday",
+  "version": "1.0.0",
+  "description": "Embed Appie Today Videos in Gatsby via Markdown",
   "main": "index.js",
-  "author": "Neal Bürger <info@nealbuerger.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -24,9 +23,9 @@
     "prepublish": "cross-env NODE_ENV=production npm run build",
     "watch": "babel -w src --out-dir ./build --ignore __tests__"
   },
-  "homepage": "https://github.com/borgfriend/gatsby-remark-embed-video#readme",
+  "homepage": "https://github.com/borgfriend/gatsby-remark-embed-appietoday#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borgfriend/gatsby-remark-embed-video.git"
+    "url": "git+https://github.com/borgfriend/gatsby-remark-embed-appietoday.git"
   }
 }
