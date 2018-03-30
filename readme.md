@@ -1,5 +1,5 @@
 # gatsby-remark-embed-appietoday
-Embed a Youtube Video in your Markdown
+Embed a AppieToday Video in your Markdown
 
 Inspired by [gatsby-remark-embed-youtube](https://github.com/ntwcklng/gatsby-remark-embed-youtube)
 
