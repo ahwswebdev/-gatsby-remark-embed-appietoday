@@ -23,9 +23,9 @@
     "prepublish": "cross-env NODE_ENV=production npm run build",
     "watch": "babel -w src --out-dir ./build --ignore __tests__"
   },
-  "homepage": "https://github.com/borgfriend/gatsby-remark-embed-appietoday#readme",
+  "homepage": "https://github.com/ahwswebdev/gatsby-remark-embed-appietoday#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borgfriend/gatsby-remark-embed-appietoday.git"
+    "url": "git+https://github.com/ahwswebdev/gatsby-remark-embed-appietoday.git"
   }
 }
