@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-embed-appietoday",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Embed Appie Today Videos in Gatsby via Markdown",
   "main": "index.js",
   "license": "MIT",
